@@ -19,13 +19,7 @@ const Orders = require('./routes/orderRoutes');
 
 
 const app = express();
-// Add this after initializing express
-app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
-app.use(express.static(path.join(__dirname, '../client/build')));
 
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../client/build/index.html'));
-});
 // Body parser
 app.use(express.json());
 
@@ -86,5 +80,15 @@ app.use('/api/orders', Orders);
 // Error handler middleware
 const errorHandler = require('./middlewares/error');
 app.use(errorHandler);
+
+
+// Static assets (React build)
+app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
+app.use(express.static(path.join(__dirname, '../client/build')));
+
+// Catch-all for React SPA
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../client/build/index.html'));
+});
 
 module.exports = app;
