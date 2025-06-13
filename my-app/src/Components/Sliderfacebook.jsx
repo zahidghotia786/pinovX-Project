@@ -10,58 +10,59 @@ import img2 from "../assets/pick2.png";
 let DataSlider = [
   {
     img: img1,
-    tital: "",
-    date: "",
+    title: "Emily R.",
+    date: "March 3, 2025",
     para:
-      " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat minim",
+      "The platform is fast, reliable, and very easy to use. I was able to convert currencies without any hassle or delay.",
   },
   {
     img: img1,
-    tital: 'Kumar N. J. "',
-    date: "",
-    para: "Great company to deal with, will deal again, patient and fast transation",
+    title: "Kumar N. J.",
+    date: "February 12, 2025",
+    para: "Excellent service! Very smooth transaction and great customer support. Will definitely use again.",
   },
   {
     img: img2,
-    tital: "Anonymous",
+    title: "Anonymous",
     date: "May 5, 2025",
-    para: "Best in the business thumbs up emoji 3 times",
+    para: "Best in the business! 👍👍👍 Quick, accurate, and no unnecessary steps.",
   },
   {
     img: img2,
-    tital: "",
-    date: "",
+    title: "Michael T.",
+    date: "January 20, 2025",
     para:
-      "Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat aute irure voluptate dolore eu fugiat nulla pariatur.",
+      "I’ve used many currency converters, but pinovX stands out for its speed and simplicity. Highly recommended!",
   },
   {
     img: img1,
-    tital: 'Kumar N. J. "',
-    date: "",
+    title: "Kumar N. J.",
+    date: "February 15, 2025",
     para:
-      " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat minim",
+      "Every transaction has been seamless. The interface is clean, and I appreciate the focus on fiat only.",
   },
   {
     img: img1,
-    tital: "",
-    date: "",
+    title: "Sophia M.",
+    date: "April 9, 2025",
     para:
-      " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat minim",
+      "pinovX makes currency conversion stress-free. I always get updated rates and zero confusion.",
   },
   {
     img: img2,
-    tital: "Anonymous",
+    title: "Anonymous",
     date: "May 5, 2025",
-    para: "Best in the business thumbs up emoji 3 times",
+    para: "Reliable and fast service! 👍👍👍 A must-have tool for anyone dealing with global payments.",
   },
 ];
+
 
 export default function Section8() {
   return (
     <div className="w-full flex flex-col items-center overflow-hidden justify-center py-16">
       {/* Title */}
       <h2 className="text-4xl md:text-5xl text-white text-center mb-4">
-        Our Clients <span className="text-green-500">Facebook</span>
+        Our Clients <span className="text-green-500">Feedback</span>
       </h2>
 
       {/* Subtext */}
