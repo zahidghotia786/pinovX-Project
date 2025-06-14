@@ -84,11 +84,5 @@ app.use(errorHandler);
 
 // Static assets (React build)
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
-app.use(express.static(path.join(__dirname, '../client/build')));
-
-// Catch-all for React SPA
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../client/build/index.html'));
-});
 
 module.exports = app;

@@ -87,7 +87,7 @@ const LoginForm = () => {
               </svg>
             </div>
             <img src={logo} alt="" className='w-60' />
-            <p className="text-xl text-blue-200">Secure Crypto Exchange</p>
+            <p className="text-xl text-blue-200">Secure Exchange for Fiat and Crypto</p>
           </div>
 
           {/* Main Message */}

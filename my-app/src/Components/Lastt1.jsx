@@ -1,12 +1,12 @@
 import React from 'react';
-import img1O from '../assets/o (1).png';
+import img1O from '../assets/apyl.png';
 import img2 from '../assets/o (2).png';
 import img3 from '../assets/o (3).png';
 import img4 from '../assets/o (4).png';
 export default function lLast() {
   return (
     <div className="mt-8 pb-10">
-      <div className="w-full border border-[#24C867] flex flex-wrap justify-around items-center gap-4 p-4">
+      <div className="w-full border border-y-[#24C867] border-x-0 flex flex-wrap justify-around items-center gap-4 p-4">
         
         {/* Image 1 */}
         <img
@@ -22,15 +22,11 @@ export default function lLast() {
           alt="img4"
         />
 
-        {/* Text with image ("apayl" + image) */}
-        <div className="flex  items-center justify-center text-center">
-          <p className="text-white text-3xl sm:text-4xl md:text-5xl">apayl</p>
-          <img
-            className="w-[30px] sm:w-[40px] md:w-[53px] mt-1"
-            src={img1O}
-            alt="img1O"
-          />
-        </div>
+         <img
+          className="w-[110px] sm:w-[150px] md:w-[180px] lg:w-[200px]"
+          src={img1O}
+          alt="img4"
+        />
 
         {/* Small container with zoomed-in image */}
         <div className="flex justify-center items-center h-[70px] w-[78px] overflow-hidden ">
